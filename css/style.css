@@ -122,15 +122,12 @@ button {
 .lc-cat-nav .lc-parent-cat .nav-link:hover {
     color: #898989;
 }
-.carousel-item img {
-    height: 80vh;
-}
 .carousel-backdrop {
     display: flex;
     align-items: center;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100% !important;
     top: 0;
     left: 0;
     right: 0;
@@ -139,6 +136,9 @@ button {
 }
 .lc-carousel-content {
     padding: 0 6rem;
+}
+.carousel-item img {
+    height: 740px;
 }
 .carousel-title {
     color: #fff;
@@ -552,4 +552,37 @@ footer {
 }
 .lc-btn-white-transparent:hover svg path {
     stroke: #000;
+}
+.lc-news-wrapper {
+    padding: 0 1rem;
+}
+.lc-news-img {
+    margin-bottom: 1.875rem;
+}
+.lc-news-img a {
+    width: 100%;
+    height: 100%;
+}
+.lc-news-img img {
+    height: 22.5rem;
+    object-fit: cover;
+}
+.lc-news-section .slick-arrow {
+    display: none !important;
+}
+.lc-news-date {
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+}
+.lc-news-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.lc-news-title:hover {
+    color: #898989;
+}
+.lc-news-section {
+    margin-bottom: 7.5rem;
 }
