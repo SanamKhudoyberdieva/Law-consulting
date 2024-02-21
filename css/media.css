@@ -212,7 +212,8 @@
     .lc-modal .modal-body {
         padding: 4.375rem 1.25rem;
     }
-    #sendingResume .modal-fullscreen {
+    #sendingResume .modal-fullscreen,
+    #sendingResumeSuccessfully .modal-fullscreen {
         width: 100vw;
     }
     .lc-modals .lc-close {
@@ -242,9 +243,9 @@
         align-items: center;
         justify-content: space-between;
     }
-    .lc-news-wrapper {
+    /* .lc-news-wrapper {
         padding: 0 1rem;
-    }
+    } */
     .lc-nav-pills .lc-nav-link {
         width: 50%;
     }
@@ -264,5 +265,8 @@
     }
     .lc-vacancy-group {
         margin-bottom: 1rem;
+    }
+    .lc-news-slick .lc-news-wrapper {
+        padding: 0 !important;
     }
 }
