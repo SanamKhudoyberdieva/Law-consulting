@@ -55,9 +55,9 @@
                 <li><a class="dropdown-item" href="#">English</a></li>
               </ul>
             </div>
-            <a class="lc-social-ic" href="#">
+            <!-- <a class="lc-social-ic" href="#">
               <img src="./img/ic_search.svg" alt="search" />
-            </a>
+            </a> -->
           </div>
           <div class="lc-mob-nav">
             <div class="dropdown lc-lang-dropdown">
@@ -83,13 +83,13 @@
                 </ul>
               </div>
             </div>
-            <a class="lc-search" href="#">
+            <!-- <a class="lc-search" href="#">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M22 22L20 20" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-            </a>
-            <button class="btn lc-hamburger">
+            </a> -->
+            <button class="btn lc-hamburger"  data-bs-toggle="modal" data-bs-target="#menuModal">
               <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="36" height="36" rx="18" fill="white"/>
                 <path d="M10 15H26" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
@@ -128,109 +128,109 @@
       </div>
     </nav>
     <main>
-        <section class="lc-page-section">
-            <div class="container">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                            <a href="/">Главная</a>
-                        </li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                    </ol>
-                </nav>
-                <h1 class="lc-section-title text-left">Vacancies</h1>
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="lc-vacancy-group">Название места</div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="accordion lc-accordion" id="accordionExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <button class="accordion-button lc-vacancy-btn out-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <section class="lc-page-section">
+          <div class="container">
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                          <a href="/">Главная</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                  </ol>
+              </nav>
+              <h1 class="lc-section-title text-left">Vacancies</h1>
+              <div class="row">
+                  <div class="col-md-5">
+                      <div class="lc-vacancy-group">Название места</div>
+                  </div>
+                  <div class="col-md-7">
+                      <div class="accordion lc-accordion" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button lc-vacancy-btn out-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span>Торговый представитель HoReCa</span>
+                                <span class="lc-accordion-arrow">
+                                  <img src="./img/ic_arrow-down.svg" alt="arrow">
+                                </span>
+                              </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <div class="vacany-info-group">
+                                    <div class="lc-list-title">Опыт работы</div>
+                                    Опыт работы от 1 года торговым представителем (опыт работы в канале HoReCa будет преимуществом)                      
+                                </div>
+                                <div class="vacany-info-group">
+                                    <div class="lc-list-title">Обязанности</div>
+                                    •  Поиск и привлечение новых клиентов;
+                                    •  Выезд на территорию и консультирование клиентов;
+                                    •  Презентация наших товаров; 
+                                    •  Выполнение ежемесячных планов продаж и обеспечение максимальной реализации продукции по каждому бренду.
+                                </div>
+                                <div class="vacany-info-group">
+                                    <div class="lc-list-title">Требования</div>
+                                    Обязательное знание русского и узбекского языков Обязательное наличие автомобиля Наличие наработанной клиентской базы (будет преимуществом)
+                                </div>
+                                <button class="btn lc-btn-mini" data-bs-toggle="modal" data-bs-target="#sendingResume">
+                                  <span>Подать заявку</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button lc-vacancy-btn out-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                   <span>Торговый представитель HoReCa</span>
                                   <span class="lc-accordion-arrow">
-                                    <img src="./img/ic_arrow_top.svg" alt="arrow">
+                                      <img src="./img/ic_arrow-down.svg" alt="arrow">
                                   </span>
-                                </button>
-                              </h2>
-                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  <div class="vacany-info-group">
-                                      <div class="lc-list-title">Опыт работы</div>
-                                      Опыт работы от 1 года торговым представителем (опыт работы в канале HoReCa будет преимуществом)                      
-                                  </div>
-                                  <div class="vacany-info-group">
-                                      <div class="lc-list-title">Обязанности</div>
-                                      •  Поиск и привлечение новых клиентов;
-                                      •  Выезд на территорию и консультирование клиентов;
-                                      •  Презентация наших товаров; 
-                                      •  Выполнение ежемесячных планов продаж и обеспечение максимальной реализации продукции по каждому бренду.
-                                  </div>
-                                  <div class="vacany-info-group">
-                                      <div class="lc-list-title">Требования</div>
-                                      Обязательное знание русского и узбекского языков Обязательное наличие автомобиля Наличие наработанной клиентской базы (будет преимуществом)
-                                  </div>
-                                  <button class="btn lc-btn-mini" data-bs-toggle="modal" data-bs-target="#sendingResume">
-                                    <span>Подать заявку</span>
-                                  </button>
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <div class="vacany-info-group">
+                                    <div class="lc-list-title">Опыт работы</div>
+                                    Опыт работы от 1 года торговым представителем (опыт работы в канале HoReCa будет преимуществом)                      
                                 </div>
+                                <div class="vacany-info-group">
+                                    <div class="lc-list-title">Обязанности</div>
+                                    •  Поиск и привлечение новых клиентов;
+                                    •  Выезд на территорию и консультирование клиентов;
+                                    •  Презентация наших товаров; 
+                                    •  Выполнение ежемесячных планов продаж и обеспечение максимальной реализации продукции по каждому бренду.
+                                </div>
+                                <button class="btn lc-btn-mini" data-bs-toggle="modal" data-bs-target="#sendingResume">
+                                  <span>Подать заявку</span>
+                                </button>
                               </div>
                             </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <button class="accordion-button lc-vacancy-btn out-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span>Торговый представитель HoReCa</span>
-                                    <span class="lc-accordion-arrow">
-                                        <img src="./img/ic_arrow_top.svg" alt="arrow">
-                                    </span>
-                                </button>
-                              </h2>
-                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  <div class="vacany-info-group">
-                                      <div class="lc-list-title">Опыт работы</div>
-                                      Опыт работы от 1 года торговым представителем (опыт работы в канале HoReCa будет преимуществом)                      
-                                  </div>
-                                  <div class="vacany-info-group">
-                                      <div class="lc-list-title">Обязанности</div>
-                                      •  Поиск и привлечение новых клиентов;
-                                      •  Выезд на территорию и консультирование клиентов;
-                                      •  Презентация наших товаров; 
-                                      •  Выполнение ежемесячных планов продаж и обеспечение максимальной реализации продукции по каждому бренду.
-                                  </div>
-                                  <button class="btn lc-btn-mini" data-bs-toggle="modal" data-bs-target="#sendingResume">
-                                    <span>Подать заявку</span>
-                                  </button>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button lc-vacancy-btn out-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  <span>Торговый представитель HoReCa</span>
+                                  <span class="lc-accordion-arrow">
+                                      <img src="./img/ic_arrow-down.svg" alt="arrow">
+                                  </span>
+                              </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <div class="vacany-info-group">
+                                    <div class="lc-list-title">Требования</div>
+                                    Обязательное знание русского и узбекского языков Обязательное наличие автомобиля Наличие наработанной клиентской базы (будет преимуществом)
                                 </div>
+                                <button class="btn lc-btn-mini" data-bs-toggle="modal" data-bs-target="#sendingResume">
+                                  <span>Подать заявку</span>
+                                </button>
                               </div>
                             </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <button class="accordion-button lc-vacancy-btn out-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <span>Торговый представитель HoReCa</span>
-                                    <span class="lc-accordion-arrow">
-                                        <img src="./img/ic_arrow_top.svg" alt="arrow">
-                                    </span>
-                                </button>
-                              </h2>
-                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  <div class="vacany-info-group">
-                                      <div class="lc-list-title">Требования</div>
-                                      Обязательное знание русского и узбекского языков Обязательное наличие автомобиля Наличие наработанной клиентской базы (будет преимуществом)
-                                  </div>
-                                  <button class="btn lc-btn-mini" data-bs-toggle="modal" data-bs-target="#sendingResume">
-                                    <span>Подать заявку</span>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
     </main>
     <footer>
       <div class="container">
@@ -310,13 +310,13 @@
                   />
                 </svg>
               </div>
-              <div class="lc-location-text">
+              <div class="es-location-text">
                 Узбекистан, г. Наманган, Давлатабадский р-н, ул. Мустакиллик,
                 дом 25
               </div>
             </div>
           </div>
-          <div class="lc-footer-group text-md-end">
+          <!-- <div class="lc-footer-group text-md-end">
             <div class="lc-footer-title" data-aos="fade-left">Pages</div>
             <ul class="nav lc-footer-list" data-aos="fade-left">
               <li class="nav-item">
@@ -341,7 +341,7 @@
                 <a href="#" class="nav-link">Careers</a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="lc-footer-bottom">
@@ -376,6 +376,81 @@
       </div>
     </footer>
 
+    <!-- Mobile Menu Modal -->
+    <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="menuModalLabel">Mеню</h1>
+            <button type="button" class="btn p-0" data-bs-dismiss="modal" aria-label="Close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>О нас</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Бренды</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Услуги</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Контакт</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Вакансия</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Новости</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Публичная оферта</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Mobile Tabs -->
     <div class="mobile-nav d-lg-none">
       <ul class="nav">
@@ -441,7 +516,33 @@
               <label class="control-label" for="vacancyform-file">Резюме</label>
               <input type="file" id="vacancyform-file" class="form-control" name="vacancyform[file]" placeholder="Прикрепите файл">
             </div>
-            <button class="btn lc-btn-mini">Отправить</button>
+            <button class="btn lc-btn-mini" data-bs-toggle="modal" data-bs-target="#sendingResumeSuccessfully">
+              <span>Отправить</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Successfully Send Request Modal -->
+    <div class="modal fade lc-modals right" id="sendingResumeSuccessfully" tabindex="-1" aria-labelledby="sendingResumeSuccessfullyLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="btn lc-close" data-bs-dismiss="modal" aria-label="Close">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.797893 14C0.593734 14 0.389576 13.9219 0.233267 13.7672C-0.0777556 13.4562 -0.0777556 12.9506 0.233267 12.6396L12.6391 0.234842C12.9501 -0.0761542 13.4557 -0.0761542 13.7667 0.234842C14.0778 0.545838 14.0778 1.05141 13.7667 1.3624L1.36092 13.7672C1.20621 13.9219 1.00205 14 0.797893 14Z" fill="white"/>
+                <path d="M13.2037 14C12.9995 14 12.7954 13.9219 12.6391 13.7672L0.233267 1.36081C-0.0777556 1.04981 -0.0777556 0.544243 0.233267 0.233247C0.544289 -0.077749 1.0499 -0.077749 1.36092 0.233247L13.7667 12.638C14.0778 12.949 14.0778 13.4546 13.7667 13.7656C13.612 13.9219 13.4079 14 13.2037 14Z" fill="white"/>
+              </svg>
+            </button>
+            <div class="lc-success-req-content">
+              <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.8433 29.0542L16.7516 32.8542C17.3849 33.4875 18.8099 33.8042 19.7599 33.8042H25.7766C27.6766 33.8042 29.7349 32.3792 30.2099 30.4792L34.0099 18.9208C34.8016 16.7042 33.3766 14.8042 31.0016 14.8042H24.6683C23.7183 14.8042 22.9266 14.0125 23.0849 12.9042L23.8766 7.83749C24.1933 6.41249 23.2433 4.82916 21.8183 4.35416C20.5516 3.87916 18.9683 4.51249 18.3349 5.46249L11.8433 15.1208" stroke="#000000" stroke-width="2" stroke-miterlimit="10"/>
+                <path d="M3.76831 29.0542V13.5375C3.76831 11.3208 4.71831 10.5292 6.93498 10.5292H8.51831C10.735 10.5292 11.685 11.3208 11.685 13.5375V29.0542C11.685 31.2708 10.735 32.0625 8.51831 32.0625H6.93498C4.71831 32.0625 3.76831 31.2708 3.76831 29.0542Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div class="lc-success-req-title"><span>Спасибо!</span> <br>Ваша заявка принята!</div>
+              <div class="lc-success-req-desc">Оператор свяжется с Вами в ближайшее время!</div>
+            </div>
           </div>
         </div>
       </div>

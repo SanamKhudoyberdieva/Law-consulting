@@ -558,7 +558,12 @@ footer {
   padding: 0 1rem;
 }
 .lc-news-img {
-  margin-bottom: 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
 }
 .lc-news-img a {
   width: 100%;
@@ -706,7 +711,6 @@ footer {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  height: 18rem;
   margin-bottom: 1.25rem;
   border-radius: 50%;
 }
@@ -767,6 +771,7 @@ footer {
 .lc-news-list {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   margin: 0 -0.625rem 1.875rem;
 }
 .lc-news-list .lc-news-wrapper {
@@ -898,7 +903,8 @@ footer {
   color: #000;
   margin-bottom: 1.25rem;
 }
-#sendingResume .modal-fullscreen {
+#sendingResume .modal-fullscreen, 
+#sendingResumeSuccessfully .modal-fullscreen {
   width: 50vw;
   position: absolute;
   right: 0;
@@ -950,10 +956,6 @@ footer {
 .modal-body .lc-btn-mini {
   margin-top: 2rem;
 }
-.modal-body .lc-btn-mini:hover {
-  color: var(--white-100) !important;
-  z-index: 99;
-}
 .lc-modals .lc-close {
   position: absolute;
   top: 3.125rem;
@@ -967,4 +969,29 @@ footer {
   justify-content: center;
   transition: 0.3s ease;
   z-index: 1;
+}
+.lc-success-req-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#sendingResumeSuccessfully .modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lc-success-req-content svg {
+  margin-bottom: 1.3rem;
+}
+.lc-success-req-content .lc-success-req-title {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.lc-success-req-content .lc-success-req-desc {
+  font-size: 1.2rem;
+  text-align: center;
 }

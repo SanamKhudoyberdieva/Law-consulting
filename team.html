@@ -55,9 +55,9 @@
                 <li><a class="dropdown-item" href="#">English</a></li>
               </ul>
             </div>
-            <a class="lc-social-ic" href="#">
+            <!-- <a class="lc-social-ic" href="#">
               <img src="./img/ic_search.svg" alt="search" />
-            </a>
+            </a> -->
           </div>
           <div class="lc-mob-nav">
             <div class="dropdown lc-lang-dropdown">
@@ -83,13 +83,13 @@
                 </ul>
               </div>
             </div>
-            <a class="lc-search" href="#">
+            <!-- <a class="lc-search" href="#">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M22 22L20 20" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-            </a>
-            <button class="btn lc-hamburger">
+            </a> -->
+            <button class="btn lc-hamburger"  data-bs-toggle="modal" data-bs-target="#menuModal">
               <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="36" height="36" rx="18" fill="white"/>
                 <path d="M10 15H26" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
@@ -310,13 +310,13 @@
                   />
                 </svg>
               </div>
-              <div class="lc-location-text">
+              <div class="es-location-text">
                 Узбекистан, г. Наманган, Давлатабадский р-н, ул. Мустакиллик,
                 дом 25
               </div>
             </div>
           </div>
-          <div class="lc-footer-group text-md-end">
+          <!-- <div class="lc-footer-group text-md-end">
             <div class="lc-footer-title" data-aos="fade-left">Pages</div>
             <ul class="nav lc-footer-list" data-aos="fade-left">
               <li class="nav-item">
@@ -341,7 +341,7 @@
                 <a href="#" class="nav-link">Careers</a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="lc-footer-bottom">
@@ -376,6 +376,81 @@
       </div>
     </footer>
 
+    <!-- Mobile Menu Modal -->
+    <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="menuModalLabel">Mеню</h1>
+            <button type="button" class="btn p-0" data-bs-dismiss="modal" aria-label="Close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>О нас</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Бренды</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Услуги</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Контакт</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Вакансия</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Новости</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+            <div class="pr-menu-modal-item">
+                <a href="#">
+                  <span>Публичная оферта</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Mobile Tabs -->
     <div class="mobile-nav d-lg-none">
       <ul class="nav">

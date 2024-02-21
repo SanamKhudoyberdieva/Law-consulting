@@ -224,4 +224,45 @@
     #sendingResume .modal-body {
         padding: 1rem;
     }
+    .pr-menu-modal-item {
+        border-radius: 0;
+        border: 1px solid var(--border-color);
+        padding: 1rem 0;
+        background-color: var(--white-color-0);
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #e1e1e1;
+    }
+    .pr-menu-modal-item:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+    .pr-menu-modal-item a {
+        color: var(--black-color-100);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lc-news-wrapper {
+        padding: 0 1rem;
+    }
+    .lc-nav-pills .lc-nav-link {
+        width: 50%;
+    }
+    .lc-news-list {
+        width: auto;
+    }
+    .lc-news-list .lc-news-wrapper {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .lc-nav-pills .lc-nav-link {
+        margin: 0;
+        width: 100%;
+    }
+    .lc-nav-pills .nav-item {
+        width: 50%;
+    }
+    .lc-vacancy-group {
+        margin-bottom: 1rem;
+    }
 }
